@@ -40,6 +40,7 @@ def draw_menu(color):
     teal = pygame.draw.rect(screen, (0, 255, 255), [WIDTH - 85, 10, 25, 25])
     purple = pygame.draw.rect(screen, (255, 0, 255), [WIDTH - 85, 35, 25, 25])
     black = pygame.draw.rect(screen, (0, 0, 0), [WIDTH - 110, 10, 25, 25])
+    # black = pygame.draw.rect(screen, (255, 255, 255), [WIDTH - 110, 35, 25, 25])
     color_rect = [blue, red, green, yellow, teal, purple, black, eraser_rect]
     rgb_list = [(0, 0, 255), (255, 0, 0), (0, 255, 0), (255, 255, 0),
                 (0, 255, 255), (255, 0, 255), (0, 0, 0), (255, 255, 255)]
